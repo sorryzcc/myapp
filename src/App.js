@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import Input from './component/input.tsx';
-import Avator from './component/avatar.jsx';
+import Avatar from './component/avatar.jsx';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Avator/>
+        <Avatar/>
         <Input/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
